@@ -1,0 +1,7 @@
+c:\Users\HUMPS\Documents\GameFile\GameApp\bin\Release\net10.0\publish\GameApp.exe
+c:\Users\HUMPS\Documents\GameFile\GameApp\bin\Release\net10.0\publish\appsettings.Development.json
+c:\Users\HUMPS\Documents\GameFile\GameApp\bin\Release\net10.0\publish\appsettings.json
+c:\Users\HUMPS\Documents\GameFile\GameApp\bin\Release\net10.0\publish\GameApp.dll
+c:\Users\HUMPS\Documents\GameFile\GameApp\bin\Release\net10.0\publish\GameApp.deps.json
+c:\Users\HUMPS\Documents\GameFile\GameApp\bin\Release\net10.0\publish\GameApp.runtimeconfig.json
+c:\Users\HUMPS\Documents\GameFile\GameApp\bin\Release\net10.0\publish\GameApp.pdb

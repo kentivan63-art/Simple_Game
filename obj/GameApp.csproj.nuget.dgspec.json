@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj": {}
+    "c:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj": {
+    "c:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj",
+        "projectUniqueName": "c:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj",
         "projectName": "GameApp",
-        "projectPath": "C:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj",
+        "projectPath": "c:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\GameApp.csproj",
         "packagesPath": "C:\\Users\\HUMPS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\obj\\",
+        "outputPath": "c:\\Users\\HUMPS\\Documents\\GameFile\\GameApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HUMPS\\AppData\\Roaming\\NuGet\\NuGet.Config"
