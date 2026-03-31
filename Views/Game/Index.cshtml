@@ -1,0 +1,53 @@
+@model GameApp.Models.GameModel
+
+@{
+    ViewData["Title"] = "Battle Arena";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Battle Arena</h1>
+
+    <div class="row mt-5">
+        <!-- Player Section -->
+        <div class="col-md-5 border p-4">
+            <h3>Player</h3>
+            <div class="progress">
+                <div class="progress-bar bg-success" style="width: @Model.PlayerHP%">@Model.PlayerHP HP</div>
+            </div>
+        </div>
+
+        <div class="col-md-2 d-flex align-items-center justify-content-center">
+            <h2 class="text-danger">VS</h2>
+        </div>
+
+        <!-- Enemy Section -->
+        <div class="col-md-5 border p-4">
+            <h3>Monster</h3>
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="width: @Model.EnemyHP%">@Model.EnemyHP HP</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-info mt-4">
+        <h4>@Model.Message</h4>
+    </div>
+
+    <div class="mt-4">
+        @if (!Model.IsGameOver)
+        {
+            <form asp-action="Attack" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-danger btn-lg">Attack</button>
+            </form>
+            <form asp-action="Heal" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-success btn-lg">Heal</button>
+            </form>
+        }
+        else
+        {
+            <form asp-action="Reset" method="post">
+                <button type="submit" class="btn btn-primary btn-lg">Play Again</button>
+            </form>
+        }
+    </div>
+</div>
